@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+}
+main{
+    min-height: 94.7vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card{
+    width: 12rem;
+    padding: 1.5rem;
+}
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: .3125rem 0 0 .3125rem;
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius:0 .3125rem   .3125rem 0;
+}
+.btn1{
+    margin-top:  3.125rem ;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 3.125rem;
+    padding: .5rem .9375rem;
+    border: .125rem white solid;
+    color: hsl(0, 0%, 95%);
+}
+
+.btn2{
+    margin-top:  3.125rem ;
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 3.125rem;
+    padding: .5rem .9375rem;
+    border: .125rem white solid;
+    color: hsl(0, 0%, 95%);
+}
+
+.btn3{
+    margin-top:  3.125rem ;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 3.125rem;
+    padding: .5rem .9375rem;
+    border: .125rem white solid;
+    color: hsl(0, 0%, 95%);
+}
+
+.footer{
+    text-align: center;
+    background-color: hsl(184, 100%, 22%);
+    padding: .625rem 0;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 45rem) {
+    main{
+        flex-direction: column;
+        min-height: 150vh;
+    }
+    .sedan{
+        border-radius: .3125rem  .3125rem 0 0;
+    }
+
+    .luxury{
+        border-radius:0 0 .3125rem   .3125rem ;
+    }
+    .btn1{
+        margin-top:  1rem ;
+
+    }
+    
+    .btn2{
+        margin-top:  1rem ;
+
+    }
+    
+    .btn3{
+        margin-top:  1rem ;
+
+    }
+}
